@@ -16,6 +16,7 @@ export default function NumberButtons() {
             <NumberButton>8</NumberButton>
             <NumberButton>9</NumberButton>
             <NumberButton>0</NumberButton>
+            <NumberButton>.</NumberButton>
         </div>
 
     )
