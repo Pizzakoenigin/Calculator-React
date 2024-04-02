@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #a9a9a9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,10 +10,27 @@
   color: white;
 }
 
+.calculator {
+  background-color: #4f4f4f;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: grid;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttons{
+  display: grid;
+  gap: 0.5rem;
+  font-size: 5rem;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
 .numbers{
   display: grid;
   gap: 0.5rem;
   grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .operators{

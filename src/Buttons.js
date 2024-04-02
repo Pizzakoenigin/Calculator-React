@@ -1,10 +1,10 @@
-import Numbers from "./Numbers"
+import NumberButtons from "./NumberButtons"
 import Operators from "./Operators"
 
 export default function Buttons() {
     return (
-        <div>
-            <Numbers></Numbers>
+        <div className="buttons">
+            <NumberButtons></NumberButtons>
             <Operators></Operators>
         </div>
 
