@@ -1,5 +1,5 @@
 export default function Operator({children}) {
     return(
-        <div>{children}</div>
+        <button>{children}</button>
     )
 }

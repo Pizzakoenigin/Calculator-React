@@ -2,7 +2,7 @@ import Number from "./Number";
 
 export default function Numbers() {
     return (
-        <div>
+        <div className="numbers">
             <Number>1</Number>
             <Number>2</Number>
             <Number>3</Number>

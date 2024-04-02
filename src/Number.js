@@ -1,5 +1,5 @@
 export default function Number({children}){
     return (
-        <div>{children}</div>
+        <button>{children}</button>
     )
 }
