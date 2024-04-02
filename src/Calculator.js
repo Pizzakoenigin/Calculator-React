@@ -16,3 +16,7 @@ export default function Calculator() {
         </ContextCalculator.Provider>
     )
 } 
+
+// basic math calculation
+// floating point numbers
+// work with negative numbers
