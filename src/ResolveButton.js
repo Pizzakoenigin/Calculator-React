@@ -6,12 +6,8 @@ export default function ResolveButton() {
 
     function handleClick() {
         let toResolve = inputValue
-
         let numbersInput = toResolve.split(/[+\-*/=]/).map(parseFloat);
         let operators = toResolve.split(/[0-9]+/).filter(Boolean)
-
-        console.log(numbersInput, operators);
-
 
         for (let i = 0; i < operators.length; i++) {
             let operator = operators[i];
@@ -43,11 +39,8 @@ export default function ResolveButton() {
                     break;
             }
         }
-
         setInputValue(result.toString())
     }
-
-
 
     return (
         <button

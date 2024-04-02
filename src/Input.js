@@ -3,16 +3,15 @@ import { ContextCalculator } from "./Calculator";
 
 export default function Output() {
     const { inputValue, setInputValue } = useContext(ContextCalculator)
-    const { noValue, setNoValue} = useState ('')
 
     function handleInput(event) {
         const checkValue = event.target.value.replace(/[^0-9+\-/*=]/g, '');
         setInputValue(checkValue)
     }
     
-    
-
-
+    if (inputValue == 'NaN' || inputValue == 'Infinity') {
+        setInputValue('invalid Input')
+    }
 
     return (
         <>
@@ -24,6 +23,5 @@ export default function Output() {
                 value={inputValue}
                 />
         </>
-
     )
 }

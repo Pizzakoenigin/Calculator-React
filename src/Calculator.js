@@ -1,5 +1,5 @@
 import Buttons from "./Buttons"
-import Output from "./Output"
+import Output from "./Input"
 import { useState, useContext, createContext } from "react"
 
 export const ContextCalculator = createContext()
