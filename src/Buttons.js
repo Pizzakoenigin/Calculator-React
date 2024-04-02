@@ -1,5 +1,7 @@
-export default Buttons () {
+import Numbers from "./Numbers"
+
+export default function Buttons() {
     return(
-        franziska
+        <Numbers></Numbers>
     )
 }
