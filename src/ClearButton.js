@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { ContextCalculator } from "./Calculator";
 
 
-export default function ClearButton({children}) {
+export default function ClearButton() {
     const { inputValue, setInputValue } = useContext(ContextCalculator)
     
     function handleClick() {
@@ -12,6 +12,6 @@ export default function ClearButton({children}) {
     return(
         <button
             onClick={handleClick}
-        >{children}</button>
+        >C</button>
     )
 }

@@ -5,11 +5,11 @@ export default function NumberButton({ children }) {
     const { inputValue, setInputValue } = useContext(ContextCalculator)
 
     function handleClick() {
-        console.log('click');
+        // console.log('click');
 
 
         setInputValue(inputValue + children)
-        console.log(inputValue);
+        // console.log(inputValue);
     }
 
     return (
