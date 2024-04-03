@@ -38,7 +38,6 @@ input {
 }
 
 .buttons{
-  
   display: grid;
   gap: 1rem;
   font-size: 3rem;
@@ -55,8 +54,6 @@ input {
     color: var(--dark-color);
     background-color: var(--bright-color);
   }
-
-
 }
 
 .numbers{
