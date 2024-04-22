@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { ContextCalculator } from "./Calculator";
 import resolveCalculation from "./resolveCalculation";
 
-export default function Output() {
+export default function Input() {
     const { inputValue, setInputValue } = useContext(ContextCalculator)
 
     function handleInput(event) {

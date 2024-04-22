@@ -1,6 +1,6 @@
 import Buttons from "./Buttons"
-import Output from "./Input"
-import { useState, useContext, createContext } from "react"
+import Input from "./Input"
+import { useState, createContext } from "react"
 
 export const ContextCalculator = createContext()
 
@@ -10,7 +10,7 @@ export default function Calculator() {
     return (
         <ContextCalculator.Provider value={{inputValue, setInputValue}}>
             <div className="calculator">
-                <Output></Output>
+                <Input></Input>
                 <Buttons></Buttons>
             </div>
         </ContextCalculator.Provider>
