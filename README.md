@@ -1,3 +1,7 @@
+
+![calc1](https://github.com/user-attachments/assets/5b477a81-be15-44e0-878b-ad64048ca88b)
+![calc0](https://github.com/user-attachments/assets/d7c4a682-4dab-4463-b668-876e3c43f0d3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
